@@ -221,11 +221,14 @@ h2 {
 
 .about{
     display: block;
-    width: 50%;
+    width: 70%;
     margin: 20px;
     justify-content: center;
     text-align: center;
+}
 
+#large{
+    font-size: 2.25vh;
 }
 
 #about-img{
