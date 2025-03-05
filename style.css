@@ -314,5 +314,10 @@ h2 {
         max-width: 100%;
         height: auto;
     }
+
+    #about{
+        width: 350px;
+        max-width: 100%;
+    }
   }
   
