@@ -156,7 +156,7 @@ h2 {
 /* other pages */
 .inline-block{
     margin: 20px;
-    padding: 80px;
+    padding: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     word-wrap: break-word;
@@ -176,13 +176,13 @@ h2 {
 
 .inline-block img{
     width: 350px;
-    height: fit-content;
+    height: max-content;
     border-width: 1px;
     border-style: solid;
     border-color: lightgrey;
     margin: 20px;
     margin-left: 0px;
-    padding: 20px;
+    padding: 5px;
     background-color: white;
 }
 
@@ -250,7 +250,8 @@ h2 {
 }
 
 #small{
-    font-size: 1.5vh;
+    font-size: 1vh;
+    
 }
 
 #icons{
