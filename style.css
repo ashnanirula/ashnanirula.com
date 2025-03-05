@@ -289,15 +289,16 @@ h2 {
 
 .footer-content{
     margin: 20px;
-    font-size: 1%;
     color: #808080;
     line-height: 0.75vh;
 }
 
 .left-align{
     text-align: left;
+    line-height: 1.5vh;
 }
 
 .center-align{
     text-align: center;
+    line-height: 1.5vh;
 }
