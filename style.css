@@ -220,10 +220,8 @@ h2 {
 }
 
 .about{
-    display: block;
     width: 70%;
     margin: 20px;
-    justify-content: center;
     text-align: center;
 }
 
@@ -234,7 +232,6 @@ h2 {
 #about-img{
     width: 300px;
     height: auto;
-    justify-content: center;
     border-width: 0;
     border-radius: 7px;
     padding: 0px;
