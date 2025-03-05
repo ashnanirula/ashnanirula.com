@@ -1,0 +1,283 @@
+@import url('./css/switzer.css');
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(./fonts/inter/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(./fonts/inter/Inter_18pt-Bold.ttf);
+}
+
+body{
+    font-family: 'switzer-regular';
+    background: white;
+    background-image: radial-gradient(rgb(197, 197, 197) 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -200px -200px;
+}
+
+h1 {
+    font-family: 'Switzer-black';
+    font-size: 8vh;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 2vh;
+}
+
+strong{
+    font-family: switzer-bold;
+}
+
+.italic{
+    font-family: 'switzer-italic';
+}
+
+.signature {
+    width: 340px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.welcome {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: max-content;
+}
+
+.hi {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    border-right: 2px solid;
+    animation: typing;
+    animation-duration: 3s;
+    animation-timing-function: steps(50, end);
+    animation-fill-mode: forwards;
+  }
+ 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+.desktop{
+    text-align: center;
+    font-size: 1.5vh;
+    font-family: 'switzer-italic';
+}
+
+h2 {
+   text-transform: uppercase; 
+   font-family: "switzer-semibold";
+   margin-bottom: 5px;
+}
+
+.tag {
+    padding-inline-start: 1.25vw;
+    padding-inline-end: 1.25vw;
+    width: fit-content;
+    font-family: "switzer-regular";
+    background-color: white;
+    border-radius: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: gray;
+    color: gray;
+    font-size: 1.75vh;
+}
+
+.folio{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.cube{
+    justify-content: left;
+    padding: 20px;
+    width: 350px;
+    min-height: 1px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.cube:hover{
+    /* border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(202, 202, 202); */
+    /* border: 2px solid #dadada; */
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px rgb(225, 224, 224);
+}
+
+.project-image{
+    border-radius: 5px; 
+    width: 100%;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-stick{
+    width: 100%;
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+}
+
+.navigation-button{
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+}
+
+.navigation-button:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* other pages */
+.inline-block{
+    margin: 20px;
+    padding: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-wrap: break-word;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-in-flex{
+    margin: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.inline-block img{
+    width: 350px;
+    height: fit-content;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    margin: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    background-color: white;
+}
+
+#gallery{
+    width: fit-content;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#gallery-img{
+    height: 300px;
+    width: fit-content;
+    margin: 20px;
+    padding: 0px;
+}
+
+#gallery-img-small{
+    border-color: white;
+    margin: 20px;
+    padding: 0px;
+    height: 300px;
+    width: fit-content;
+}
+
+#gallery-img-smallest{
+    border-color: white;
+    margin: 20px;
+    padding: 0px;
+    height: 150px;
+    width: fit-content;
+}
+
+#about-img{
+    height: 250px;
+    justify-content: center;
+    border-width: 0;
+    border-radius: 7px;
+    padding: 0px;
+    
+}
+
+#contact{
+    color: gray;
+}
+
+#biobook{
+    width: 70%;
+}
+
+/* footer */
+
+.footer{
+    width: auto;
+    max-width: 100%;
+    padding: 20px;
+    padding-top: 60px;
+    background-color: white;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color: whitesmoke;
+    border-style: solid;
+}
+
+#small{
+    font-size: 1.5vh;
+}
+
+#icons{
+    gap: 1vh;
+    justify-content: center;
+}
+
+#icon-img{
+    height: 2.5vh;
+}
+
+#icon-img:hover{
+    height: 3vh;
+    cursor: pointer;
+}
+
+.footer-content{
+    margin: 20px;
+    font-size: 1%;
+    color: #808080;
+    line-height: 0.75vh;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.center-align{
+    text-align: center;
+}
