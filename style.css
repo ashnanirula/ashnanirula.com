@@ -176,8 +176,9 @@ h2 {
 }
 
 .inline-block img{
-    width: 350px;
-    height: auto;
+    height: 300px;
+    max-height: 100%;
+    width: auto;
     border-width: 1px;
     border-style: solid;
     border-color: lightgrey;
@@ -222,7 +223,6 @@ h2 {
 .about{
     width: 70%;
     margin: 20px;
-    text-align: center;
 }
 
 #large{
@@ -234,8 +234,6 @@ h2 {
     height: auto;
     border-width: 0;
     border-radius: 7px;
-    padding: 0px;
-    
 }
 
 #contact{
@@ -299,3 +297,4 @@ h2 {
     text-align: center;
     line-height: 1.5vh;
 }
+
