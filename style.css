@@ -220,9 +220,10 @@ h2 {
 }
 
 .about{
-    width: 70%;
+    padding: 20px;
     margin: 20px;
     display: block;
+    justify-items: center;
 }
 
 #large{
