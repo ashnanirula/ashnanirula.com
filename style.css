@@ -316,6 +316,11 @@ h2 {
         height: auto;
     }
 
+    #gallery-img-small{
+        width: 350px;
+        height: auto;
+    }
+
     .about{
         width: 350px;
         padding: 20px;
