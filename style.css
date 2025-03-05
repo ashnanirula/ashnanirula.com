@@ -308,19 +308,16 @@ h2 {
 
     #gallery-img{
         width: 350px;
-        max-width: 100%;
         height: auto;
     }
 
     #gallery-img-smallest{
         width: 350px;
-        max-width: 100%;
         height: auto;
     }
 
     .about{
         width: 350px;
-        max-width: 100%;
         padding: 20px;
     }
   }
