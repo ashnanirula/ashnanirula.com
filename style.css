@@ -270,6 +270,7 @@ h2 {
 #icons{
     gap: 1vh;
     justify-content: center;
+    filter: none;
 }
 
 #icon-img{
@@ -277,7 +278,7 @@ h2 {
 }
 
 #icon-img:hover{
-    height: 3vh;
+    filter: hue-rotate(120deg) brightness(1.2); 
     cursor: pointer;
 }
 
