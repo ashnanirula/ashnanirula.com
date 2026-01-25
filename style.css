@@ -328,3 +328,27 @@ h2 {
     }
   }
   
+  /* speaking */
+
+.speaking{
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.speak-link{
+    text-decoration: none;
+    color: purple;
+    background-color: aqua;
+}
+
+.speak-link:hover{
+    color: black;
+    text-decoration: wavy;
+    text-decoration-thickness: 20px;
+    cursor: pointer;
+    font-weight: 900;
+}
