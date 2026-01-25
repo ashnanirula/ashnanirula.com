@@ -331,9 +331,9 @@ h2 {
   /* speaking */
 
 .speaking{
-    justify-content: left;
+    justify-content: center;
     margin: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
